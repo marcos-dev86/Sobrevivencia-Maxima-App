@@ -1,0 +1,8 @@
+{
+  "_comment": "Sprites cujo 'ir para x,y' literal é relativo à TELA (inimigos nascendo nas bordas da área visível).",
+  "screenRelativeGoto": [
+    "zombie", "zombie2", "zombie3", "zombie knight",
+    "boss brute", "boss trans", "boss hipnotiser",
+    "koc hitbox"
+  ]
+}

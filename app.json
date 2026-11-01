@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Sobrevivência Máxima",
+    "slug": "sobrevivencia-maxima",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#000000",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0B10"
+    },
+    "android": {
+      "package": "com.sobrevivenciamaxima.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "softwareKeyboardLayoutMode": "pan",
+      "blockedPermissions": [
+        "android.permission.INTERNET"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sobrevivenciamaxima.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-screen-orientation",
+      [
+        "expo-navigation-bar",
+        {}
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "dbea3c16-74f1-40c4-b290-8709af4b8739"
+      }
+    }
+  }
+}

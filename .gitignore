@@ -1,0 +1,9 @@
+node_modules/
+.expo/
+dist/
+web-build/
+android/
+ios/
+.tmp-sb3/
+*.apk
+*.aab
